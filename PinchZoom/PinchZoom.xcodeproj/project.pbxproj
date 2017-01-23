@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A474B2E1E3210DB00E16AA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A474B2D1E3210DB00E16AA0 /* main.m */; };
+		9A474B311E3210DB00E16AA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A474B301E3210DB00E16AA0 /* AppDelegate.m */; };
+		9A474B341E3210DB00E16AA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A474B331E3210DB00E16AA0 /* ViewController.m */; };
+		9A474B371E3210DB00E16AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A474B351E3210DB00E16AA0 /* Main.storyboard */; };
+		9A474B391E3210DB00E16AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A474B381E3210DB00E16AA0 /* Assets.xcassets */; };
+		9A474B3C1E3210DB00E16AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A474B3A1E3210DB00E16AA0 /* LaunchScreen.storyboard */; };
+		9A474B471E3210DB00E16AA0 /* PinchZoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A474B461E3210DB00E16AA0 /* PinchZoomTests.m */; };
+		9A474B521E3210DB00E16AA0 /* PinchZoomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A474B511E3210DB00E16AA0 /* PinchZoomUITests.m */; };
+		9A474B601E32111900E16AA0 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A474B5F1E32111900E16AA0 /* image1.png */; };
+		9A474B661E321B5400E16AA0 /* ZoomableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A474B651E321B5400E16AA0 /* ZoomableView.m */; };
+		9A474B711E324AA600E16AA0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A474B701E324AA600E16AA0 /* ThirdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A474B431E3210DB00E16AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A474B211E3210DB00E16AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A474B281E3210DB00E16AA0;
+			remoteInfo = PinchZoom;
+		};
+		9A474B4E1E3210DB00E16AA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A474B211E3210DB00E16AA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A474B281E3210DB00E16AA0;
+			remoteInfo = PinchZoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A474B291E3210DB00E16AA0 /* PinchZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A474B2D1E3210DB00E16AA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A474B2F1E3210DB00E16AA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A474B301E3210DB00E16AA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A474B321E3210DB00E16AA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A474B331E3210DB00E16AA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A474B361E3210DB00E16AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A474B381E3210DB00E16AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A474B3B1E3210DB00E16AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A474B3D1E3210DB00E16AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A474B421E3210DB00E16AA0 /* PinchZoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchZoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A474B461E3210DB00E16AA0 /* PinchZoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchZoomTests.m; sourceTree = "<group>"; };
+		9A474B481E3210DB00E16AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A474B4D1E3210DB00E16AA0 /* PinchZoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchZoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A474B511E3210DB00E16AA0 /* PinchZoomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchZoomUITests.m; sourceTree = "<group>"; };
+		9A474B531E3210DB00E16AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A474B5F1E32111900E16AA0 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		9A474B641E321B5400E16AA0 /* ZoomableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomableView.h; sourceTree = "<group>"; };
+		9A474B651E321B5400E16AA0 /* ZoomableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomableView.m; sourceTree = "<group>"; };
+		9A474B6F1E324AA600E16AA0 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		9A474B701E324AA600E16AA0 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A474B261E3210DB00E16AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A474B3F1E3210DB00E16AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A474B4A1E3210DB00E16AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A474B201E3210DB00E16AA0 = {
+			isa = PBXGroup;
+			children = (
+				9A474B2B1E3210DB00E16AA0 /* PinchZoom */,
+				9A474B451E3210DB00E16AA0 /* PinchZoomTests */,
+				9A474B501E3210DB00E16AA0 /* PinchZoomUITests */,
+				9A474B2A1E3210DB00E16AA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A474B2A1E3210DB00E16AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A474B291E3210DB00E16AA0 /* PinchZoom.app */,
+				9A474B421E3210DB00E16AA0 /* PinchZoomTests.xctest */,
+				9A474B4D1E3210DB00E16AA0 /* PinchZoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A474B2B1E3210DB00E16AA0 /* PinchZoom */ = {
+			isa = PBXGroup;
+			children = (
+				9A474B5F1E32111900E16AA0 /* image1.png */,
+				9A474B2F1E3210DB00E16AA0 /* AppDelegate.h */,
+				9A474B301E3210DB00E16AA0 /* AppDelegate.m */,
+				9A474B321E3210DB00E16AA0 /* ViewController.h */,
+				9A474B331E3210DB00E16AA0 /* ViewController.m */,
+				9A474B351E3210DB00E16AA0 /* Main.storyboard */,
+				9A474B381E3210DB00E16AA0 /* Assets.xcassets */,
+				9A474B3A1E3210DB00E16AA0 /* LaunchScreen.storyboard */,
+				9A474B3D1E3210DB00E16AA0 /* Info.plist */,
+				9A474B2C1E3210DB00E16AA0 /* Supporting Files */,
+				9A474B641E321B5400E16AA0 /* ZoomableView.h */,
+				9A474B651E321B5400E16AA0 /* ZoomableView.m */,
+				9A474B6F1E324AA600E16AA0 /* ThirdViewController.h */,
+				9A474B701E324AA600E16AA0 /* ThirdViewController.m */,
+			);
+			path = PinchZoom;
+			sourceTree = "<group>";
+		};
+		9A474B2C1E3210DB00E16AA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A474B2D1E3210DB00E16AA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A474B451E3210DB00E16AA0 /* PinchZoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A474B461E3210DB00E16AA0 /* PinchZoomTests.m */,
+				9A474B481E3210DB00E16AA0 /* Info.plist */,
+			);
+			path = PinchZoomTests;
+			sourceTree = "<group>";
+		};
+		9A474B501E3210DB00E16AA0 /* PinchZoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A474B511E3210DB00E16AA0 /* PinchZoomUITests.m */,
+				9A474B531E3210DB00E16AA0 /* Info.plist */,
+			);
+			path = PinchZoomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A474B281E3210DB00E16AA0 /* PinchZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A474B561E3210DB00E16AA0 /* Build configuration list for PBXNativeTarget "PinchZoom" */;
+			buildPhases = (
+				9A474B251E3210DB00E16AA0 /* Sources */,
+				9A474B261E3210DB00E16AA0 /* Frameworks */,
+				9A474B271E3210DB00E16AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinchZoom;
+			productName = PinchZoom;
+			productReference = 9A474B291E3210DB00E16AA0 /* PinchZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A474B411E3210DB00E16AA0 /* PinchZoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A474B591E3210DB00E16AA0 /* Build configuration list for PBXNativeTarget "PinchZoomTests" */;
+			buildPhases = (
+				9A474B3E1E3210DB00E16AA0 /* Sources */,
+				9A474B3F1E3210DB00E16AA0 /* Frameworks */,
+				9A474B401E3210DB00E16AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A474B441E3210DB00E16AA0 /* PBXTargetDependency */,
+			);
+			name = PinchZoomTests;
+			productName = PinchZoomTests;
+			productReference = 9A474B421E3210DB00E16AA0 /* PinchZoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A474B4C1E3210DB00E16AA0 /* PinchZoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A474B5C1E3210DB00E16AA0 /* Build configuration list for PBXNativeTarget "PinchZoomUITests" */;
+			buildPhases = (
+				9A474B491E3210DB00E16AA0 /* Sources */,
+				9A474B4A1E3210DB00E16AA0 /* Frameworks */,
+				9A474B4B1E3210DB00E16AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A474B4F1E3210DB00E16AA0 /* PBXTargetDependency */,
+			);
+			name = PinchZoomUITests;
+			productName = PinchZoomUITests;
+			productReference = 9A474B4D1E3210DB00E16AA0 /* PinchZoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A474B211E3210DB00E16AA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MacMini;
+				TargetAttributes = {
+					9A474B281E3210DB00E16AA0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VSH53UC2HR;
+						ProvisioningStyle = Automatic;
+					};
+					9A474B411E3210DB00E16AA0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VSH53UC2HR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A474B281E3210DB00E16AA0;
+					};
+					9A474B4C1E3210DB00E16AA0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VSH53UC2HR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A474B281E3210DB00E16AA0;
+					};
+				};
+			};
+			buildConfigurationList = 9A474B241E3210DB00E16AA0 /* Build configuration list for PBXProject "PinchZoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A474B201E3210DB00E16AA0;
+			productRefGroup = 9A474B2A1E3210DB00E16AA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A474B281E3210DB00E16AA0 /* PinchZoom */,
+				9A474B411E3210DB00E16AA0 /* PinchZoomTests */,
+				9A474B4C1E3210DB00E16AA0 /* PinchZoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A474B271E3210DB00E16AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A474B3C1E3210DB00E16AA0 /* LaunchScreen.storyboard in Resources */,
+				9A474B391E3210DB00E16AA0 /* Assets.xcassets in Resources */,
+				9A474B601E32111900E16AA0 /* image1.png in Resources */,
+				9A474B371E3210DB00E16AA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A474B401E3210DB00E16AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A474B4B1E3210DB00E16AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A474B251E3210DB00E16AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A474B341E3210DB00E16AA0 /* ViewController.m in Sources */,
+				9A474B661E321B5400E16AA0 /* ZoomableView.m in Sources */,
+				9A474B311E3210DB00E16AA0 /* AppDelegate.m in Sources */,
+				9A474B2E1E3210DB00E16AA0 /* main.m in Sources */,
+				9A474B711E324AA600E16AA0 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A474B3E1E3210DB00E16AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A474B471E3210DB00E16AA0 /* PinchZoomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A474B491E3210DB00E16AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A474B521E3210DB00E16AA0 /* PinchZoomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A474B441E3210DB00E16AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A474B281E3210DB00E16AA0 /* PinchZoom */;
+			targetProxy = 9A474B431E3210DB00E16AA0 /* PBXContainerItemProxy */;
+		};
+		9A474B4F1E3210DB00E16AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A474B281E3210DB00E16AA0 /* PinchZoom */;
+			targetProxy = 9A474B4E1E3210DB00E16AA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A474B351E3210DB00E16AA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A474B361E3210DB00E16AA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A474B3A1E3210DB00E16AA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A474B3B1E3210DB00E16AA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A474B541E3210DB00E16AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A474B551E3210DB00E16AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A474B571E3210DB00E16AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VSH53UC2HR;
+				INFOPLIST_FILE = PinchZoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samplecode.PinchZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A474B581E3210DB00E16AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VSH53UC2HR;
+				INFOPLIST_FILE = PinchZoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samplecode.PinchZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A474B5A1E3210DB00E16AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VSH53UC2HR;
+				INFOPLIST_FILE = PinchZoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samplecode.PinchZoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinchZoom.app/PinchZoom";
+			};
+			name = Debug;
+		};
+		9A474B5B1E3210DB00E16AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VSH53UC2HR;
+				INFOPLIST_FILE = PinchZoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samplecode.PinchZoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinchZoom.app/PinchZoom";
+			};
+			name = Release;
+		};
+		9A474B5D1E3210DB00E16AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VSH53UC2HR;
+				INFOPLIST_FILE = PinchZoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samplecode.PinchZoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PinchZoom;
+			};
+			name = Debug;
+		};
+		9A474B5E1E3210DB00E16AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VSH53UC2HR;
+				INFOPLIST_FILE = PinchZoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samplecode.PinchZoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PinchZoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A474B241E3210DB00E16AA0 /* Build configuration list for PBXProject "PinchZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A474B541E3210DB00E16AA0 /* Debug */,
+				9A474B551E3210DB00E16AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A474B561E3210DB00E16AA0 /* Build configuration list for PBXNativeTarget "PinchZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A474B571E3210DB00E16AA0 /* Debug */,
+				9A474B581E3210DB00E16AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A474B591E3210DB00E16AA0 /* Build configuration list for PBXNativeTarget "PinchZoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A474B5A1E3210DB00E16AA0 /* Debug */,
+				9A474B5B1E3210DB00E16AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A474B5C1E3210DB00E16AA0 /* Build configuration list for PBXNativeTarget "PinchZoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A474B5D1E3210DB00E16AA0 /* Debug */,
+				9A474B5E1E3210DB00E16AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A474B211E3210DB00E16AA0 /* Project object */;
+}
