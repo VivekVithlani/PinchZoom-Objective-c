@@ -16,8 +16,6 @@
 		9A474B471E3210DB00E16AA0 /* PinchZoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A474B461E3210DB00E16AA0 /* PinchZoomTests.m */; };
 		9A474B521E3210DB00E16AA0 /* PinchZoomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A474B511E3210DB00E16AA0 /* PinchZoomUITests.m */; };
 		9A474B601E32111900E16AA0 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A474B5F1E32111900E16AA0 /* image1.png */; };
-		9A474B661E321B5400E16AA0 /* ZoomableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A474B651E321B5400E16AA0 /* ZoomableView.m */; };
-		9A474B711E324AA600E16AA0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A474B701E324AA600E16AA0 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +53,6 @@
 		9A474B511E3210DB00E16AA0 /* PinchZoomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchZoomUITests.m; sourceTree = "<group>"; };
 		9A474B531E3210DB00E16AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A474B5F1E32111900E16AA0 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
-		9A474B641E321B5400E16AA0 /* ZoomableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomableView.h; sourceTree = "<group>"; };
-		9A474B651E321B5400E16AA0 /* ZoomableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomableView.m; sourceTree = "<group>"; };
-		9A474B6F1E324AA600E16AA0 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		9A474B701E324AA600E16AA0 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,10 +113,6 @@
 				9A474B3A1E3210DB00E16AA0 /* LaunchScreen.storyboard */,
 				9A474B3D1E3210DB00E16AA0 /* Info.plist */,
 				9A474B2C1E3210DB00E16AA0 /* Supporting Files */,
-				9A474B641E321B5400E16AA0 /* ZoomableView.h */,
-				9A474B651E321B5400E16AA0 /* ZoomableView.m */,
-				9A474B6F1E324AA600E16AA0 /* ThirdViewController.h */,
-				9A474B701E324AA600E16AA0 /* ThirdViewController.m */,
 			);
 			path = PinchZoom;
 			sourceTree = "<group>";
@@ -291,10 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A474B341E3210DB00E16AA0 /* ViewController.m in Sources */,
-				9A474B661E321B5400E16AA0 /* ZoomableView.m in Sources */,
 				9A474B311E3210DB00E16AA0 /* AppDelegate.m in Sources */,
 				9A474B2E1E3210DB00E16AA0 /* main.m in Sources */,
-				9A474B711E324AA600E16AA0 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

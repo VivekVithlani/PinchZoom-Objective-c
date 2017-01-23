@@ -12,9 +12,7 @@
     
     __weak IBOutlet UIScrollView *scrollView;
     __weak IBOutlet UIImageView *imgView;
-    __weak IBOutlet UIButton *btnNext;
 }
-- (IBAction)btnNextPressed:(id)sender;
 @end
 
 @implementation ViewController
@@ -23,35 +21,30 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    // Note: Remove auto resize in image view
+    // Note: Remove "auto resize" / "constant" from image view
     scrollView.minimumZoomScale = 1;
     scrollView.maximumZoomScale = 6.0;
     
     dispatch_async(dispatch_get_main_queue(), ^{
+        // Setup Image view frame
         imgView.contentMode = UIViewContentModeScaleAspectFit;
-        imgView.backgroundColor = [UIColor greenColor];
-        // Setup photo frame
         CGRect photoImageViewFrame;
         photoImageViewFrame.size = imgView.image.size;
         imgView.frame = photoImageViewFrame;
         scrollView.contentSize = photoImageViewFrame.size;
-//        imgView.frame = self.view.frame;
-
+        
+        // Set zoom to minimum zoom, Every time updateZoom method when you change image
+        [self updateZoom];
     });
-    
-    // Set zoom to minimum zoom, Every time updateZoom method when you change image
-    [self updateZoom];
-//    imgView.image = nil;
-    NSLog(@"contentSize: %@",NSStringFromCGSize(scrollView.contentSize));
 }
 
 -(void)updateZoom {
     scrollView.minimumZoomScale = MIN(scrollView.bounds.size.width / imgView.image.size.width, scrollView.bounds.size.height / imgView.image.size.height);
-    
+    /* This is extra code.
     if (scrollView.zoomScale <= scrollView.minimumZoomScale) {
         scrollView.zoomScale = scrollView.minimumZoomScale;
     }
-    
+    */
     scrollView.zoomScale = scrollView.minimumZoomScale;
 }
 
@@ -75,6 +68,7 @@
     imgView.frame = contentsFrame;
 }
 
+#pragma mark - UIScrollViewDelegate
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
     return imgView;
 }
